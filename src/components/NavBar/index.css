@@ -1,0 +1,105 @@
+.nav-header {
+    background-color: transparent;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+}
+.nav-items-container {
+    background-color: transparent;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.nav-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 60vw;
+}
+.nav-items {
+    background-color: rgba(165, 72, 26, 0.5);
+    border: none;
+    outline: none;
+    width: 95vw;
+    padding: 10px;
+}
+.item {
+    color: rgb(236, 245, 236);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.small-container {
+    background-color: rgba(108, 160, 239, 0.5);
+    display: flex;
+    color: #fff;
+}
+.small-logo {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.big-container {
+    display: none;
+}
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo-link {
+    text-decoration: none;
+    color: inherit; 
+}
+.logo-link:hover {
+    text-decoration: none;
+    color: inherit; 
+}
+.logo {
+    color: #fff;
+    font-weight: 500;
+    font-size: 23px;
+}
+.items-list-container {
+    margin-left: 15vw;
+    margin-right: 20vw;
+}
+.items-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.book-now-button {
+    background-color: rgb(124, 172, 240);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    align-self: center;
+}
+@media screen and (min-width: 768px) {
+    .small-container {
+        background-color: #ff944d;
+        display: none;
+    }
+    .big-container {
+        background-color: rgba(108, 160, 239, 0.5);
+        display: flex;
+        padding: 10px;
+    }
+}
